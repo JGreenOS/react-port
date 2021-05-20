@@ -1,0 +1,114 @@
+
+/*Stylesheet*/
+/*Last modified on 5-15-2021 by JGreen*/
+*
+ {
+    box-sizing: border-box;
+    font-family: "Arimo", sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    
+ }
+
+ .btn-mine {
+     background-color: blueviolet;
+     color:white;
+ }
+ h3 {
+     text-align: center;
+ }
+ 
+ h5 {
+     font-family: 'Arimo', sans-serif;
+     font-size: 30px;
+     color: black;
+ }
+
+ /*Sets jumbotron and responsive img for jumbotron*/
+
+.jumbotron
+{
+    background-color: DE354C;
+    text-align: center;
+    color: black;
+}
+
+.responsive {
+    width: 100%;   
+    height: auto;
+}
+/*Sets body style; with Google font*/
+body {
+   background-color: #283747;
+   font-family: 'Arimo', sans-serif;
+   font-size: 16px;
+   color: white;
+}
+
+/*Sets style for cards used on portfolio page*/
+.Card {
+    font-size: 20;
+    color: black;
+    display: block;
+    width: auto;
+
+}
+
+.card-img-top{
+    display: block;
+    max-width: 300px;
+    max-height: 300px;
+    padding-top: 10px;
+
+      
+}
+.card-text
+{
+    color: black;
+    font-family: 'Arimo', sans-serif;;
+}
+
+
+.contact-column {
+column-count: 4;
+column-width: 100px;
+padding: 20px;
+column-gap: 50px;
+
+}
+
+/*Sets style for header*/
+header{
+    padding: 20px;
+
+}
+/* Navbar and nav-link : sets custom style*/
+.navbar
+{
+    display: inline-flex;
+    text-align: right;
+    color: white;
+    width: 100%;
+    left: 0;
+}
+.nav-link
+{
+    font-size: 30px;
+    color: white;
+}
+
+/*Sets form controls to white text for dark background*/
+.form-group
+{   color: white
+
+}
+
+/*Sets properties for footer*/
+
+footer{
+    flex-shrink: 0;
+    width: 100%;
+    padding: 0px;
+
+}
